@@ -9,6 +9,15 @@ body{
     justify-content: center;
     align-items: center;
     height: 100%;
+    padding: 30px;
+}
+
+.login-section{
+    background-color: red;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
 }
 .login-box{
     display: flex;
@@ -27,4 +36,11 @@ input{
 button{
     width: 40%;
     height: 25px;
+}
+.image-box{
+    overflow: hidden;
+    width: 100%;
+}
+.image-box img{
+max-height:600px;
 }
