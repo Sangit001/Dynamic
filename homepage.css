@@ -5,6 +5,7 @@
 }
 body{
     /* background-color: black; */
+    overflow: hidden;
 }
 html{
     scroll-behavior: smooth;
@@ -19,6 +20,7 @@ html{
     justify-content: space-between;
     align-items: center;
     color: white;
+    z-index: 111;
 
 
 }
@@ -32,15 +34,24 @@ html{
     height:90vh;
     width: 100%;
     transition: all 0.3s ease-in-out;
+    overflow: hidden;
 }
-
+.slidebar a{
+    width: 100%;
+    padding: 20px 0px;
+    padding-left: 20px;
+    transition: all 0.2s ease-in-out;
+}
+.slidebar a:hover{
+        background-color: rgb(231, 231, 231);
+}
 .options{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
-    font-size: 30px;
-    padding:20px;
+    font-size: 20px;
+    width: 100%;
+
 
 }
  a{
@@ -80,3 +91,9 @@ html{
     gap: 20px;
 }
 
+/* Home page profile */
+
+.profile-part img{
+    height: 140px;
+    border-radius: 50%;
+}
